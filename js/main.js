@@ -648,7 +648,7 @@ function verHistorial() {
 }
 
 document.getElementById("btnCompartir").addEventListener("click", function () {
-    const urlJuego = "";
+    const urlJuego = "https://c1fon.github.io/Memory-Game/";
     const mensaje = encodeURIComponent("¡He ganado en Memorión con una gran puntuación! 🧠🎉He obtenido " + calculaPuntuacion() + " puntos. ¿Puedes superarme?");
     const facebookURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(urlJuego)}&quote=${mensaje}`;
 
@@ -656,7 +656,7 @@ document.getElementById("btnCompartir").addEventListener("click", function () {
 });
 
 document.getElementById("btnCompartirTwitter").addEventListener("click", function () {
-    const urlJuego = "";
+    const urlJuego = "https://c1fon.github.io/Memory-Game/";
     const mensaje = "¡He ganado en Memorión con una gran puntuación! 🧠🎉He obtenido " + calculaPuntuacion() + " puntos. ¿Puedes superarme?";
     const twitterURL = `https://twitter.com/intent/tweet?text=${encodeURIComponent(mensaje)}&url=${encodeURIComponent(urlJuego)}`;
 
