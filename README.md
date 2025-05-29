@@ -43,22 +43,7 @@
 - **CSS3** para estilos y temas personalizados.
 - **JavaScript** para la lógica del juego, gestión de rankings y temporizador.
 - **localStorage** para guardar rankings e historial.
-
-## 📁 Estructura del proyecto
-
-Memorion/
-│
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ └── main.js
-├── img/
-│ ├── Icon.png
-│ └── logo.png
-└── README.md
-
-
+- 
 ## 📈 Mejores puntuaciones y ranking
 
 - Al finalizar una partida, tu puntuación se compara con otras partidas del mismo tipo de tablero.
